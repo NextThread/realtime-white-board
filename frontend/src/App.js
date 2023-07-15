@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import {ToastContainer, toast} from 'react-toastify';
 
 
-const server = "http://localhost:5000";
+const server = "https://drawverse.onrender.com";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
